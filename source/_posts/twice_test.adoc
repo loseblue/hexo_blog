@@ -1,0 +1,32 @@
+title: second test #文章页面上的显示名称，可以任意修改，不会出现在URL中
+date: 2015-08-18 12:22:27 #文章生成时间，一般不改，当然也可以任意修改
+categories: test #分类
+tags: [AsciiDoc,Hexo,test] #文章标签，可空，多标签请用格式，注意:后面有个空格
+description: test asciidoc in hexo #附加一段文章摘要，字数最好在140字以内。
+---
+
+== 系统信息
+
+=== 概述
+LTE系统内分为MIB和SIB系列消息, 对于UE当新接入一个小区或广播消息发生改变时, 都会接收系统信息(MIB\SIB), 以帮助更新或纠正UE当前的状态, 完成相应的通信业务和物理过程. 在系统路测中可以观察的系统信息有种: MIB, SIB1和SI, 其作用分别如下. 
+
+- MIB:用于系统接入. MIB上传输几个比较重要的系统信息参数, 如小区下行带宽, PHICH配置参数, 无线系统帧号SFN(包含SIB1消息的位置), 在PBCH上发送, 表现为"RRC_MASTER_INFO_BLOCK". 
+* SIB2:小区内所有UE共用的无线参数配置, 其它无线参数基本配置. 
+
+[plantuml]
+---------------------------------------------------------------------
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+@enduml
+---------------------------------------------------------------------
+
+从上面可以看出来，Hexo对于AsciiDoc基本属性能解析出来，流程图没办法解析。
+
+[console]
+------
+Hexo n
+------
+没法创建AsciiDoc类型文件，是不是还得修改。
