@@ -69,3 +69,6 @@ theme: jacman
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type:
+
+
+duoshuo_shortname: loseblue
