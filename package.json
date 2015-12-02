@@ -16,6 +16,8 @@
     "hexo-renderer-marked": "^0.2.4",
     "hexo-server": "^0.1.2",
     "hexo-renderer-asciidoc": "~1.1.4",
-    "hexo-deployer-git": "0.0.4"
+    "hexo-deployer-git": "0.0.4",
+    "hexo-diagram": "0.0.10",
+    "hexo-tag-plantuml": "~1.0.0"
   }
 }
