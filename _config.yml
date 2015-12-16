@@ -75,3 +75,13 @@ deploy:
 
 duoshuo_shortname: loseblue
 
+toc:
+  maxDepth: 4
+  slugify: false
+
+
+feed:
+type: atom
+path: atom.xml
+limit: 20
+hub:
