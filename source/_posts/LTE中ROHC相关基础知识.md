@@ -1,6 +1,6 @@
 title: LTE中ROHC相关基础知识
 date: 2015-12-22 16:32:28
-tags: LTE ROHC
+tags: [LTE, ROHC]
 ---
 
 
